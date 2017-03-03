@@ -3,6 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import ShowGifs from './components/ShowGifs';
 import SearchGifs from './components/SearchGifs';
+import ShowFoundGiphys from './components/ShowFoundGiphys';
 import util from 'util';
 
 const testGifs = [
@@ -31,6 +32,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <ShowFoundGiphys />
         <SearchGifs addNewImage={this.addNewImage}/>
         <ShowGifs gifs={this.state.images}/>
       </div>
