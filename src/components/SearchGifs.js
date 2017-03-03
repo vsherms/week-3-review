@@ -5,8 +5,8 @@ class SearchGifs extends React.Component {
   constructor() {
     super();
     this.state = {
-      name: "",
-      url: "",
+      name: "0",
+      url: "http://",
       description: ""
     };
     this.handleNameChange = this.handleNameChange.bind(this);
