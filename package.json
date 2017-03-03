@@ -1,5 +1,5 @@
 {
-  "name": "pluralsight-redux-starter",
+  "name": "react-webpack-starter",
   "version": "1.0.0",
   "description": "Starter kit for React and Redux Pluralsight course by Cory House",
   "scripts": {
@@ -11,7 +11,7 @@
     "test": "mocha --reporter progress tools/testSetup.js \"src/**/*.test.js\"",
     "test:watch": "npm run test -- --watch"
   },
-  "author": "Cory House",
+  "author": "Montana Code School",
   "license": "MIT",
   "dependencies": {
     "babel-polyfill": "6.8.0",
@@ -19,9 +19,7 @@
     "jquery": "2.2.3",
     "react": "15.0.2",
     "react-dom": "15.0.2",
-    "react-redux": "4.4.5",
     "react-router": "2.4.0",
-    "react-router-redux": "4.0.4",
     "redux": "3.5.2",
     "redux-thunk": "2.0.1",
     "toastr": "2.1.2"
@@ -56,8 +54,6 @@
     "npm-run-all": "1.8.0",
     "open": "0.0.5",
     "react-addons-test-utils": "15.0.2",
-    "redux-immutable-state-invariant": "1.2.3",
-    "redux-mock-store": "1.0.2",
     "rimraf": "2.5.2",
     "style-loader": "0.13.1",
     "url-loader": "0.5.7",
@@ -67,6 +63,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/coryhouse/pluralsight-redux-starter"
+    "url": "https://github.com/Montana-Code-School/react-webpack-starter"
   }
 }
